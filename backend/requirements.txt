@@ -1,0 +1,7 @@
+Flask
+flask-cors
+openai
+langchain
+langchain-community
+docx2txt
+PyPDF2
