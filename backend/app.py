@@ -51,7 +51,7 @@ def generate_interview_content(text):
         "provide a detailed, structured output in markdown format with clear sections and tables. "
         "The output should include:\n"
         "1. **Summary of Candidate**\n"
-        "2. **Likely Interview Questions** (as a markdown bullet list with topics and numbered sublist with the questions)\n"
+        "2. **Likely Interview Questions with answers** (as a markdown bullet list with topics and numbered sublist with the questions)\n"
         "3. **Recommended Topics to Study** (as a markdown bullet list)\n"
         "4. **Tips for Interview** (as a markdown bullet list)\n\n"
         "Resume/Skills:\n"
