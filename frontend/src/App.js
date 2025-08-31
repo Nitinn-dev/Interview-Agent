@@ -16,12 +16,12 @@ function App() {
     if (file) {
       const formData = new FormData();
       formData.append('file', file);
-      res = await fetch('http://127.0.0.1:5000/analyze','https://interview-agent-m4pa.onrender.com/analyze', {
+      res = await fetch('https://interview-agent-m4pa.onrender.com/analyze', {
         method: 'POST',
         body: formData,
       });
     } else if (skills) {
-      res = await fetch('http://127.0.0.1:5000/analyze', 'https://interview-agent-m4pa.onrender.com/analyze', {
+      res = await fetch( 'https://interview-agent-m4pa.onrender.com/analyze', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ skills }),
